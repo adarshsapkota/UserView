@@ -6,7 +6,7 @@ import UserList from "./Components/UserList";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/UserView">
       <div className="App"></div>
       <Routes>
         <Route path="/" element={<Welcome />} />
